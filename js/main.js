@@ -3,7 +3,8 @@ const { createApp} = Vue;
 createApp({
     data(){
         return {
-            todoList: [],
+            newTodoText: '',
+            todoList: [],  //variabile del ns todo
             apiUrl: './server.php'
         }
     },
@@ -15,7 +16,7 @@ createApp({
             } );
         },
         addTodo() {
-
+            console.log(eja);
         },
         
     },
