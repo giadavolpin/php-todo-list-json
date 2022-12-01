@@ -15,7 +15,7 @@
 <body>
     <div id="app">
         <h3>Aggiungi un todo</h3>
-        <input type="text" placeholder="Testo del todo" v-model="newTodoText">
+        <input type="text" placeholder="Testo del todo" v-model="newTodoText" name="newTodoText">
         <button @click="addTodo">Aggiungi</button>
 
         <h2>Lista To-do</h2>
